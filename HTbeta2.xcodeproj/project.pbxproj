@@ -16,9 +16,7 @@
 		0F0602D91C9DACF1007298D4 /* HTbeta2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0602D81C9DACF1007298D4 /* HTbeta2Tests.swift */; };
 		0F0602E41C9DACF1007298D4 /* HTbeta2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0602E31C9DACF1007298D4 /* HTbeta2UITests.swift */; };
 		0F0602F21C9DB0C6007298D4 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0602F11C9DB0C6007298D4 /* ThirdViewController.swift */; };
-		0FE2A64F1C9DBD23003CB19C /* triangle-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE2A64E1C9DBD23003CB19C /* triangle-xxl.png */; };
-		0FE2A6511C9DBE6D003CB19C /* triangle-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE2A6501C9DBE6D003CB19C /* triangle-64.png */; };
-		0FE2A6531C9DBE95003CB19C /* triangle-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE2A6521C9DBE95003CB19C /* triangle-32.png */; };
+		0F5006FF1C9DD87400D95E8D /* octagon-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F5006FE1C9DD87400D95E8D /* octagon-24.png */; };
 		0FE2A6551C9DBEB5003CB19C /* triangle-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE2A6541C9DBEB5003CB19C /* triangle-24.png */; };
 /* End PBXBuildFile section */
 
@@ -55,9 +53,7 @@
 		0F0602E31C9DACF1007298D4 /* HTbeta2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTbeta2UITests.swift; sourceTree = "<group>"; };
 		0F0602E51C9DACF1007298D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F0602F11C9DB0C6007298D4 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
-		0FE2A64E1C9DBD23003CB19C /* triangle-xxl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triangle-xxl.png"; sourceTree = "<group>"; };
-		0FE2A6501C9DBE6D003CB19C /* triangle-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triangle-64.png"; sourceTree = "<group>"; };
-		0FE2A6521C9DBE95003CB19C /* triangle-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triangle-32.png"; sourceTree = "<group>"; };
+		0F5006FE1C9DD87400D95E8D /* octagon-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "octagon-24.png"; sourceTree = "<group>"; };
 		0FE2A6541C9DBEB5003CB19C /* triangle-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triangle-24.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,10 +113,8 @@
 				0F0602CA1C9DACF1007298D4 /* Assets.xcassets */,
 				0F0602CC1C9DACF1007298D4 /* LaunchScreen.storyboard */,
 				0F0602CF1C9DACF1007298D4 /* Info.plist */,
-				0FE2A6501C9DBE6D003CB19C /* triangle-64.png */,
-				0FE2A6521C9DBE95003CB19C /* triangle-32.png */,
+				0F5006FE1C9DD87400D95E8D /* octagon-24.png */,
 				0FE2A6541C9DBEB5003CB19C /* triangle-24.png */,
-				0FE2A64E1C9DBD23003CB19C /* triangle-xxl.png */,
 			);
 			path = HTbeta2;
 			sourceTree = "<group>";
@@ -212,6 +206,11 @@
 					0F0602BD1C9DACF1007298D4 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 7C99G5L454;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+						};
 					};
 					0F0602D31C9DACF1007298D4 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -250,12 +249,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FE2A6531C9DBE95003CB19C /* triangle-32.png in Resources */,
-				0FE2A6511C9DBE6D003CB19C /* triangle-64.png in Resources */,
 				0F0602CE1C9DACF1007298D4 /* LaunchScreen.storyboard in Resources */,
 				0F0602CB1C9DACF1007298D4 /* Assets.xcassets in Resources */,
 				0FE2A6551C9DBEB5003CB19C /* triangle-24.png in Resources */,
-				0FE2A64F1C9DBD23003CB19C /* triangle-xxl.png in Resources */,
+				0F5006FF1C9DD87400D95E8D /* octagon-24.png in Resources */,
 				0F0602C91C9DACF1007298D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,10 +423,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HTbeta2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ssw.HTbeta2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -437,10 +437,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HTbeta2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ssw.HTbeta2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
