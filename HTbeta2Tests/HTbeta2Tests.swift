@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import HTbeta2
+@testable import Know660;
 
 class HTbeta2Tests: XCTestCase {
     

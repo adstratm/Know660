@@ -1,8 +1,9 @@
 //
 //  FirstViewController.swift
-//  HTbeta2
+//  Know 660
 //
-//  Created by Andrew Stratmann on 3/19/16.
+//  Created by Monica Singh, Andrew Stratmann, and Callie Warren on 3/19/16.
+//  Updated to Swift 3 on 10/17/16
 //  Copyright © 2016 SinghStratmannWarren. All rights reserved.
 //
 
@@ -13,89 +14,89 @@ import WebKit
 class FirstViewController: UIViewController {
 
     
-    @IBAction func exampleButton(sender: AnyObject)
+    @IBAction func exampleButton(_ sender: AnyObject)
     {
-        let websiteAddress = NSURL(string: "http://kirksvilledailyexpress.com")
-        UIApplication.sharedApplication().openURL(websiteAddress!)
+        let websiteAddress = URL(string: "http://kirksvilledailyexpress.com")
+        UIApplication.shared.openURL(websiteAddress!)
     }
 
     
-    @IBAction func secondButton(sender: AnyObject)
+    @IBAction func secondButton(_ sender: AnyObject)
     {
-        let websiteAddress = NSURL(string: "http://www.missourigasprices.com/Kirksville/index.aspx")
-        UIApplication.sharedApplication().openURL(websiteAddress!)
+        let websiteAddress = URL(string: "http://www.missourigasprices.com/Kirksville/index.aspx")
+        UIApplication.shared.openURL(websiteAddress!)
     }
     
-    @IBAction func thirdButton(sender: AnyObject)
+    @IBAction func thirdButton(_ sender: AnyObject)
     {
-        let websiteAddress = NSURL(string: "http://kirksvillecity.com")
-        UIApplication.sharedApplication().openURL(websiteAddress!)
+        let websiteAddress = URL(string: "http://kirksvillecity.com")
+        UIApplication.shared.openURL(websiteAddress!)
     }
     
-    @IBAction func fourthButton(sender: AnyObject)
+    @IBAction func fourthButton(_ sender: AnyObject)
     {
-        let websiteAddress = NSURL(string: "http://kirksvillecity.com/content/76/default.aspx")
-        UIApplication.sharedApplication().openURL(websiteAddress!)
+        let websiteAddress = URL(string: "http://kirksvillecity.com/content/76/default.aspx")
+        UIApplication.shared.openURL(websiteAddress!)
     }
     
-    @IBAction func fifthButton(sender: AnyObject)
+    @IBAction func fifthButton(_ sender: AnyObject)
     {
-        let websiteAddress = NSURL(string: "http://visitkirksville.com/events/")
-        UIApplication.sharedApplication().openURL(websiteAddress!)
+        let websiteAddress = URL(string: "http://visitkirksville.com/events/")
+        UIApplication.shared.openURL(websiteAddress!)
     }
     
-    @IBAction func sixthButton(sender: AnyObject)
+    @IBAction func sixthButton(_ sender: AnyObject)
     {
-        let websiteAddress = NSURL(string: "http://visitkirksville.com")
-        UIApplication.sharedApplication().openURL(websiteAddress!)
+        let websiteAddress = URL(string: "http://visitkirksville.com")
+        UIApplication.shared.openURL(websiteAddress!)
     }
     
-    @IBAction func seventhButton(sender: AnyObject)
+    @IBAction func seventhButton(_ sender: AnyObject)
     {
-        let websiteAddress = NSURL(string: "http://kirksville.k12.mo.us")
-        UIApplication.sharedApplication().openURL(websiteAddress!)
+        let websiteAddress = URL(string: "http://kirksville.k12.mo.us")
+        UIApplication.shared.openURL(websiteAddress!)
     }
     
-    @IBAction func eighthButton(sender: AnyObject)
+    @IBAction func eighthButton(_ sender: AnyObject)
     {
-        let websiteAddress = NSURL(string: "http://facebook.com/KirksvillePoliceDepartment")
-        UIApplication.sharedApplication().openURL(websiteAddress!)
+        let websiteAddress = URL(string: "http://facebook.com/KirksvillePoliceDepartment")
+        UIApplication.shared.openURL(websiteAddress!)
     }
     
-    @IBAction func ninthButton(sender: AnyObject)
+    @IBAction func ninthButton(_ sender: AnyObject)
     {
-        let websiteAddress = NSURL(string: "http://kirksvilleatc.weebly.com")
-        UIApplication.sharedApplication().openURL(websiteAddress!)
+        let websiteAddress = URL(string: "http://kirksvilleatc.weebly.com")
+        UIApplication.shared.openURL(websiteAddress!)
     }
     
-    @IBAction func tenthButton(sender: AnyObject)
+    @IBAction func tenthButton(_ sender: AnyObject)
     {
-        let websiteAddress = NSURL(string: "http://truman.edu")
-        UIApplication.sharedApplication().openURL(websiteAddress!)
+        let websiteAddress = URL(string: "http://truman.edu")
+        UIApplication.shared.openURL(websiteAddress!)
     }
     
-    @IBAction func eleventhButton(sender: AnyObject)
+    @IBAction func eleventhButton(_ sender: AnyObject)
     {
-        let websiteAddress = NSURL(string: "http://atsu.edu")
-        UIApplication.sharedApplication().openURL(websiteAddress!)
+        let websiteAddress = URL(string: "http://atsu.edu")
+        UIApplication.shared.openURL(websiteAddress!)
     }
     
-    @IBAction func fourteenthButton(sender: AnyObject)
+    @IBAction func fourteenthButton(_ sender: AnyObject)
     {
-        let websiteAddress = NSURL(string: "http://downtowncinema8.com")
-        UIApplication.sharedApplication().openURL(websiteAddress!)
+        let websiteAddress = URL(string: "http://downtowncinema8.com")
+        UIApplication.shared.openURL(websiteAddress!)
     }
     
-    @IBAction func twelthButton(sender: AnyObject)
+    @IBAction func twelthButton(_ sender: AnyObject)
     {
-        let websiteAddress = NSURL(string: "http://thousandhillskirksville.com")
-        UIApplication.sharedApplication().openURL(websiteAddress!)
+        let websiteAddress = URL(string: "http://thousandhillskirksville.com")
+        UIApplication.shared.openURL(websiteAddress!)
     }
     
-    @IBAction func thirteenthButton(sender: AnyObject)
+    @IBAction func thirteenthButton(_ sender: AnyObject)
     {
-        let websiteAddress = NSURL(string: "http://capeair.com")
-        UIApplication.sharedApplication().openURL(websiteAddress!)
+        let websiteAddress = URL(string: "http://capeair.com")
+        UIApplication.shared.openURL(websiteAddress!)
     }
     
     

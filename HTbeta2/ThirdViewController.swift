@@ -1,8 +1,9 @@
 //
 //  ThirdViewController.swift
-//  HTbeta2
+//  Know 660
 //
-//  Created by Andrew Stratmann on 3/19/16.
+//  Created by Monica Singh, Andrew Stratmann, and Callie Warren on 3/19/16.
+//  Updated to Swift 3 on 10/17/16
 //  Copyright © 2016 SinghStratmannWarren. All rights reserved.
 //
 
